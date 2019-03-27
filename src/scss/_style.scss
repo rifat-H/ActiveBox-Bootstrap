@@ -2,9 +2,23 @@
 // common css end
 
 // header start
-header{}
+header {
+    min-height: 100px;
+    background: url(../images/banner.png);
+
+
+
+    // <!-- nav start -->
+    nav{}
+    // <!-- nav end -->
+
+    // <!-- banner start -->
+    .banner{}
+    // <!-- banner end -->
+}
 // header end
 
 // footer start
-footer{}
+footer {}
+
 // footer end

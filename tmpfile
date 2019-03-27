@@ -23,6 +23,9 @@ get fonts
 
 fonts
 ==============
+font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
+
 
 
 icons
