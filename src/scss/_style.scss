@@ -33,7 +33,7 @@ header {
                     font-weight: 700;
                     transition: all linear .3s;
 
-                    &:hover{
+                    &:hover {
                         color: #e84545 !important;
                     }
                 }
@@ -75,7 +75,7 @@ header {
                 font-weight: 600;
                 transition: all linear .3s;
 
-                &:hover{
+                &:hover {
                     color: #e84545;
                     background-color: #ffffff;
                 }
@@ -87,6 +87,35 @@ header {
 }
 
 // header end
+
+
+// <!-- services start -->
+.service {
+    padding-top: 45px;
+    padding-bottom: 125px;
+
+    .service-item {
+        padding-top: 75px;
+
+        h4 {
+            font-size: 14px;
+            color: #2d3033;
+            font-weight: 700;
+            margin-top: 34px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #6c7279;
+            line-height: 21px;
+            word-spacing: 3.5px;
+        }
+    }
+}
+
+// <!-- services end -->
+
 
 // footer start
 footer {}
