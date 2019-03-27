@@ -1,13 +1,120 @@
 @import 'variable.scss';
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    // header start
+
+    // nav start
+    nav {
+        padding: 0 !important;
+        ul {
+            margin-top: 20px;
+
+            li {
+                padding: 0;
+                text-align: center;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    // nav end
+
+    // banner start
+    .banner {
+        .banner-content {
+            h1 {
+                font-size: 35px !important;
+            }
+
+            p {
+                font-size: 20px !important;
+
+            }
+
+            button {
+                padding: 15px 30px !important;
+            }
+        }
+    }
+
+    // banner end
+
+    // header end
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    // header start
+
+    // nav start
+    nav {
+        ul {
+            margin-top: 20px;
+
+            li {
+                padding: 0;
+                text-align: center;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    // nav end
+
+    // banner start
+    .banner {
+        .banner-content {
+            h1 {
+                font-size: 46px !important;
+            }
+
+            p {
+                font-size: 21px !important;
+            }
+            button{
+                padding: 15px 30px !important;
+            }
+        }
+    }
+
+    // banner end
+
+    // header end
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    // header start
+
+    // nav start
+    nav {
+        ul {
+            margin-top: 20px;
+
+            li {
+                padding: 0;
+                text-align: center;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    // nav end
+
+    // banner start
+    .banner {
+        .banner-content {
+            h1 {
+                font-size: 57px !important;
+            }
+        }
+    }
+
+    // banner end
+
+    // header end
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {}
