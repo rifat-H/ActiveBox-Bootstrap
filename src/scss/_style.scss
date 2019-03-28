@@ -165,7 +165,7 @@ header {
 // <!-- team start -->
 .team {
   .team-content {
-    
+
     h2 {
       margin-top: 30px;
       font-size: 22px;
@@ -203,8 +203,8 @@ header {
 
       &:hover {
 
-          color: #e84545;
-  
+        color: #e84545;
+
       }
 
       i {}
@@ -215,7 +215,51 @@ header {
 // <!-- team start -->
 
 // <!-- carousel start -->
-.carousel {}
+.carousel {
+  margin-top: 100px;
+
+  .carousel-content1 {
+    img {
+      height: auto;
+    }
+  }
+      .round-nav {
+        bottom: 25px;
+        li {
+          height: 10px !important;
+          width: 10px !important;
+          border-radius: 50% !important;
+        }
+      }
+
+
+  .carousel-content2 {
+    background-color: #53354a;
+    padding-top: 50px;
+    padding-bottom: 86px;
+
+
+    .big {
+      font-size: 36px;
+      line-height: 42px;
+      color: #ffffff;
+      font-family: $cardo;
+      font-style: italic;
+    }
+
+    .name {
+      font-size: 13px;
+      line-height: 21px;
+      color: #ffffff;
+      font-weight: 700;
+      margin-top: 30px;
+    }
+  }
+
+  #carouselExampleIndicators {
+    margin-top: 0;
+  }
+}
 
 // <!-- carousel end -->
 
