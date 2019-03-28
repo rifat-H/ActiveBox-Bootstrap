@@ -3,6 +3,37 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // <!-- download start -->
+    .download {
+        .download-content {
+            h1 {
+                font-size: 26px;
+
+            }
+
+            button {
+                padding: 16px 42px;
+
+            }
+        }
+    }
+
+    // <!-- download end -->
+
+    // <!-- carousel start -->
+
+    .carousel {
+        .carousel-content2 {
+            text-align: center;
+
+            .big {
+                font-size: 31px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+
     // team start
     .team {
         text-align: center;
@@ -64,6 +95,29 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    // <!-- download start -->
+    .download {
+        .download-content {
+
+            button {
+                padding: 18px 62px;
+
+            }
+        }
+    }
+
+    // <!-- download end -->
+
+    // <!-- carousel start -->
+
+    .carousel {
+        .carousel-content2 {
+            text-align: center;
+        }
+    }
+
+    // <!-- carousel end -->
 
     // team start
     .team {

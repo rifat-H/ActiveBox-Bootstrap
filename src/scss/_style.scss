@@ -15,6 +15,13 @@ body {
 
 }
 
+.tw {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
 // common css end
 // header start
 header {
@@ -187,12 +194,7 @@ header {
       margin-bottom: 30px;
     }
 
-    .tw {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 15px;
-      padding-right: 10px;
-    }
+
 
     a {
       padding: 10px 15px;
@@ -206,8 +208,6 @@ header {
         color: #e84545;
 
       }
-
-      i {}
     }
   }
 }
@@ -223,14 +223,16 @@ header {
       height: auto;
     }
   }
-      .round-nav {
-        bottom: 25px;
-        li {
-          height: 10px !important;
-          width: 10px !important;
-          border-radius: 50% !important;
-        }
-      }
+
+  .round-nav {
+    bottom: 25px;
+
+    li {
+      height: 10px !important;
+      width: 10px !important;
+      border-radius: 50% !important;
+    }
+  }
 
 
   .carousel-content2 {
@@ -264,12 +266,79 @@ header {
 // <!-- carousel end -->
 
 // <!-- download start -->
-.download {}
+.download {
+  padding: 100px 0;
+
+  .download-content {
+    text-align: center;
+
+    h1 {
+      font-size: 28px;
+      color: #2d3033;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 13px;
+      color: #2d3033;
+      font-weight: 700;
+      padding-top: 22px;
+      padding-bottom: 40px;
+    }
+
+    button {
+      padding: 18px 82px;
+      border: none;
+      border-radius: 2px;
+      background-color: #e84545;
+      font-size: 13px;
+      color: #ffffff;
+      font-weight: 600;
+    }
+  }
+}
 
 // <!-- download end -->
 
 // <!-- contact start -->
-.contact {}
+.contact {
+  padding-top: 68px;
+  padding-bottom: 87px;
+  background-color: #3a3e64;
+
+  .contact-content {
+    text-align: center;
+
+    h3 {
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 23px;
+      color: #ffffff;
+    }
+
+    a {
+      display: block;
+      padding: 8px 13px;
+      border: 2px solid #ffffff;
+      border-radius: 2px;
+      color: #c6cacc;
+      margin-right: 5px;
+      transition: all linear .3s;
+
+      &:hover {
+
+        color: #e84545;
+
+      }
+    }
+  }
+}
 
 // <!-- contact end -->
 
