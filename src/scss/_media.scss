@@ -3,6 +3,31 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // <!-- carousel start -->
+
+    .carousel {
+        .round-nav {
+            bottom: 5px !important;
+        }
+
+        .carousel-content2 {
+            padding-top: 39px;
+            padding-bottom: 40px;
+
+
+            .big {
+                line-height: 28px;
+                font-size: 24px;
+            }
+
+            .name {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+
     // <!-- contact start -->
     .contact {
 
@@ -10,7 +35,7 @@
 
             h3 {
                 padding-top: 40px;
-            }   
+            }
         }
     }
 
@@ -107,6 +132,9 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
     // <!-- contact start -->
     .contact {
 
@@ -114,12 +142,12 @@
 
             h3 {
                 padding-top: 40px;
-            }   
+            }
         }
     }
 
     // <!-- contact end -->
-    
+
 
     // <!-- download start -->
     .download {
@@ -204,6 +232,32 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    // <!-- carousel start -->
+
+    .carousel {
+        .round-nav {
+            bottom: 5px;
+        }
+
+        .carousel-content2 {
+            padding-top: 29px;
+            padding-bottom: 30px;
+
+
+            .big {
+                line-height: 28px;
+                font-size: 24px;
+            }
+
+            .name {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+
+
     // team start
     .team {
 
@@ -248,7 +302,27 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    // <!-- carousel start -->
+
+    .carousel {
+        .carousel-content2 {
+            padding-top: 39px;
+            padding-bottom: 60px;
+
+            .big {
+                line-height: 35px;
+                font-size: 32px;
+            }
+
+            .name {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    // <!-- carousel end -->
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}

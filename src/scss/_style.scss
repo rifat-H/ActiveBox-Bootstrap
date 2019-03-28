@@ -345,6 +345,28 @@ header {
 
 // footer start
 
-footer {}
+footer {
+  background-color: #313454;
+
+  p {
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 23px;
+    color: #808080;
+
+    span {
+      color: #ffffff;
+    }
+
+    svg{
+      color: #e84545;
+      width: 10px !important;
+
+    }
+  }
+
+
+
+}
 
 // footer end
