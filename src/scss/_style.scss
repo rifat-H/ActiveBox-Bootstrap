@@ -1,123 +1,116 @@
 // variables
+$raleway: 'Raleway', sans-serif;
+$cardo: 'Cardo', serif;
+$sans: 'Open Sans', sans-serif; // common css start
 
-$raleway : 'Raleway',
-sans-serif;
-$cardo : 'Cardo',
-serif;
-$sans: 'Open Sans',
-sans-serif;
-
-// common css start
 body {
-    font-family: $raleway;
+  font-family: $raleway;
 }
-
 // common css end
-
 // header start
 header {
-    // min-height: 100px;
-    background: url(../images/banner.png);
-    padding: 30px 0;
-    background-attachment: fixed;
+  // min-height: 100px;
+  background: url("../images/banner.png");
+  padding: 30px 0;
+  background-attachment: fixed;
+  // <!-- nav start -->
+  nav {
+    ul {
+      li {
+        padding-left: 34px;
 
-    // <!-- nav start -->
-    nav {
-        ul {
-            li {
-                padding-left: 34px;
+        a {
+          font-size: 13px;
+          color: #ffffff !important;
+          font-weight: 700;
+          transition: all linear 0.3s;
 
-                a {
-                    font-size: 13px;
-                    color: #ffffff !important;
-                    font-weight: 700;
-                    transition: all linear .3s;
-
-                    &:hover {
-                        color: #e84545 !important;
-                    }
-                }
-            }
+          &:hover {
+            color: #e84545 !important;
+          }
         }
+      }
     }
+  }
+  // <!-- nav end -->
+  // <!-- banner start -->
+  .banner {
+    padding: 155px 0;
 
-    // <!-- nav end -->
+    .banner-content {
+      h1 {
+        font-size: 65px;
+        // line-height: 71px;
+        color: #ffffff;
+        font-family: $sans;
+        font-weight: 700;
+        // text-align: center;
+        text-transform: uppercase;
+      }
 
-    // <!-- banner start -->
-    .banner {
-        padding: 155px 0;
+      p {
+        font-size: 22px;
+        color: #ffffff;
+        margin-top: 42px;
+        margin-bottom: 75px;
+      }
 
-        .banner-content {
-            h1 {
-                font-size: 65px;
-                // line-height: 71px;
-                color: #ffffff;
-                font-family: $sans;
-                font-weight: 700;
-                // text-align: center;
-                text-transform: uppercase;
-            }
+      button {
+        padding: 18px 53px;
+        border-radius: 2px;
+        background-color: #e84545;
+        border: none;
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+        transition: all linear 0.3s;
 
-            p {
-                font-size: 22px;
-                color: #ffffff;
-                margin-top: 42px;
-                margin-bottom: 75px;
-            }
-
-            button {
-                padding: 18px 53px;
-                border-radius: 2px;
-                background-color: #e84545;
-                border: none;
-                font-size: 13px;
-                color: #ffffff;
-                font-weight: 600;
-                transition: all linear .3s;
-
-                &:hover {
-                    color: #e84545;
-                    background-color: #ffffff;
-                }
-            }
+        &:hover {
+          color: #e84545;
+          background-color: #ffffff;
         }
+      }
     }
-
-    // <!-- banner end -->
+  }
+  // <!-- banner end -->
 }
-
 // header end
-
-
 // <!-- services start -->
 .service {
-    padding-top: 45px;
-    padding-bottom: 125px;
+  padding-top: 45px;
+  padding-bottom: 125px;
 
-    .service-item {
-        padding-top: 75px;
+  .service-item {
+    padding-top: 75px;
 
-        h4 {
-            font-size: 14px;
-            color: #2d3033;
-            font-weight: 700;
-            margin-top: 34px;
-            margin-bottom: 16px;
-        }
-
-        p {
-            font-size: 14px;
-            color: #6c7279;
-            line-height: 21px;
-            word-spacing: 3.5px;
-        }
+    h4 {
+      font-size: 14px;
+      color: #2d3033;
+      font-weight: 700;
+      margin-top: 34px;
+      margin-bottom: 16px;
     }
-}
 
+    p {
+      font-size: 14px;
+      color: #6c7279;
+      line-height: 21px;
+      word-spacing: 3.5px;
+    }
+  }
+}
 // <!-- services end -->
 
 
-// footer start
-footer {}
+// <!-- portfolio start -->
 
+.portfolio{}
+
+// <!-- portfolio end -->
+
+
+
+// footer start
+
+footer {}
 // footer end

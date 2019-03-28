@@ -15,9 +15,8 @@ media query sizes
 get sizes
 get pattern
 devide all section
-trim images
 get fontawesome icons
-get fonts
+
 
 
 
@@ -30,4 +29,3 @@ font-family: 'Open Sans', sans-serif;
 
 icons
 ==============
-
