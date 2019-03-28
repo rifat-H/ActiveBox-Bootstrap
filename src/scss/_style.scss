@@ -1,11 +1,20 @@
 // variables
-$raleway: 'Raleway', sans-serif;
-$cardo: 'Cardo', serif;
-$sans: 'Open Sans', sans-serif; // common css start
+$raleway: 'Raleway',
+sans-serif;
+$cardo: 'Cardo',
+serif;
+$sans: 'Open Sans',
+sans-serif; // common css start
 
 body {
   font-family: $raleway;
 }
+
+.h52 {
+  height: 252.2px !important;
+
+}
+
 // common css end
 // header start
 header {
@@ -13,6 +22,7 @@ header {
   background: url("../images/banner.png");
   padding: 30px 0;
   background-attachment: fixed;
+
   // <!-- nav start -->
   nav {
     ul {
@@ -32,6 +42,7 @@ header {
       }
     }
   }
+
   // <!-- nav end -->
   // <!-- banner start -->
   .banner {
@@ -72,8 +83,10 @@ header {
       }
     }
   }
+
   // <!-- banner end -->
 }
+
 // header end
 // <!-- services start -->
 .service {
@@ -99,18 +112,85 @@ header {
     }
   }
 }
+
 // <!-- services end -->
 
 
 // <!-- portfolio start -->
 
-.portfolio{}
+.portfolio {
+  margin-bottom: 100px;
+
+  .one-item {
+    position: relative;
+    
+    img{
+      transition: all linear 3s;
+
+    }
+
+    .overlay {
+      display: none;
+      background-color: #e84545cc;
+      position: absolute;
+      top: 0;
+      height: 0%;
+      width: 100%;
+      // transition: all linear .3s;
+
+      .overlay-content {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #ffffff;
+
+        h4 {
+          font-size: 14px;
+          font-weight: 700;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &:hover{
+      .overlay{
+        display: block;
+        height: 100%;
+      }
+    }
+
+  }
+}
 
 // <!-- portfolio end -->
 
+// <!-- team start -->
+.team {}
+
+// <!-- team start -->
+
+// <!-- carousel start -->
+.carousel {}
+
+// <!-- carousel end -->
+
+// <!-- download start -->
+.download {}
+
+// <!-- download end -->
+
+// <!-- contact start -->
+.contact {}
+
+// <!-- contact end -->
 
 
 // footer start
 
 footer {}
+
 // footer end
