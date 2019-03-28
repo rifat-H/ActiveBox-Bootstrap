@@ -294,6 +294,12 @@ header {
       font-size: 13px;
       color: #ffffff;
       font-weight: 600;
+      transition: all linear .3s;
+
+      &:hover {
+        // color: #e84545;
+        background-color: #3a3e64;
+      }
     }
   }
 }
@@ -358,7 +364,7 @@ footer {
       color: #ffffff;
     }
 
-    svg{
+    svg {
       color: #e84545;
       width: 10px !important;
 
