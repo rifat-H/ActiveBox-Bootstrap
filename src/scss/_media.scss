@@ -2,11 +2,30 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+
+    // team start
+    .team {
+        text-align: center;
+
+        .team-content {
+            img {
+                margin-top: 30px;
+            }
+
+            h2 {
+                font-size: 21px;
+            }
+        }
+    }
+
+    // team end
+
     // header start
 
     // nav start
     nav {
         padding: 0 !important;
+
         ul {
             margin-top: 20px;
 
@@ -45,6 +64,25 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    // team start
+    .team {
+        text-align: center;
+
+        .team-content {
+            h2 {
+                font-size: 21px;
+            }
+
+            img {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    // team end
+
+
     // header start
 
     // nav start
@@ -72,7 +110,8 @@
             p {
                 font-size: 21px !important;
             }
-            button{
+
+            button {
                 padding: 15px 30px !important;
             }
         }
@@ -85,6 +124,19 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    // team start
+    .team {
+
+        .team-content {
+            h2 {
+                font-size: 21px;
+            }
+        }
+    }
+
+    // team end
+
     // header start
 
     // nav start
