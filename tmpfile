@@ -9,13 +9,6 @@ add hover effect
 always comment
 check responsiveness
 do sections sections
-create mixins media query
-create mixins
-media query sizes
-get sizes
-get pattern
-devide all section
-get fontawesome icons
 
 
 
@@ -29,3 +22,7 @@ font-family: 'Open Sans', sans-serif;
 
 icons
 ==============
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-invision"></i>
+<i class="fas fa-heart"></i>

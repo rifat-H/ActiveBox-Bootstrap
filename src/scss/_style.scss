@@ -123,11 +123,6 @@ header {
 
   .one-item {
     position: relative;
-    
-    img{
-      transition: all linear 3s;
-
-    }
 
     .overlay {
       display: none;
@@ -136,7 +131,6 @@ header {
       top: 0;
       height: 0%;
       width: 100%;
-      // transition: all linear .3s;
 
       .overlay-content {
         text-align: center;
@@ -156,8 +150,8 @@ header {
       }
     }
 
-    &:hover{
-      .overlay{
+    &:hover {
+      .overlay {
         display: block;
         height: 100%;
       }
@@ -169,7 +163,53 @@ header {
 // <!-- portfolio end -->
 
 // <!-- team start -->
-.team {}
+.team {
+  .team-content {
+    h2 {
+      margin-top: 30px;
+      font-size: 22px;
+      color: #2d3033;
+    }
+
+    span {
+      display: block;
+      font-size: 13px;
+      color: #e84545;
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #6c7279;
+      margin-bottom: 30px;
+    }
+
+    .tw {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 10px;
+    }
+
+    a {
+      padding: 10px 15px;
+      border: 1px solid #e8ecee;
+      color: #c6cacc;
+      margin-right: 5px;
+      transition: all linear .3s;
+
+      &:hover {
+
+          color: #e84545;
+  
+      }
+
+      i {}
+    }
+  }
+}
 
 // <!-- team start -->
 
