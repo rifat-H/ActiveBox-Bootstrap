@@ -17,6 +17,7 @@
   <!-- optional meta end -->
   <!-- fonts in fonts.scss-->
 
+
   <title>Active Bootstrap</title>
 </head>
 
@@ -38,19 +39,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" onclick="$('#service').animatescroll();" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Works</a>
+              <a class="nav-link" onclick="$('#works').animatescroll();" href="#works">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Team</a>
+              <a class="nav-link" onclick="$('#team').animatescroll();" href="#team">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" onclick="$('#testimonial').animatescroll();" href="#testimonial">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link" onclick="$('#download').animatescroll();" href="#download">Download</a>
             </li>
           </ul>
         </div>
@@ -80,7 +81,7 @@
   <!-- header end -->
 
   <!-- services end -->
-  <section class="service">
+  <section class="service" id="service">
     <div class="container">
       <div class="row">
         <!-- one item start -->
@@ -97,7 +98,7 @@
         <div class="col-md-4">
           <div class="service-item text-center">
             <img src="images/service-2.png" class="img-fluid" alt="asd">
-            <h4>Responsive REady</h4>
+            <h4>Responsive Ready</h4>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare
               vel eu leo. Donec ullamcorper nulla</p>
           </div>
@@ -149,7 +150,7 @@
   <!-- services start -->
 
   <!-- portfolio start -->
-  <section class="portfolio">
+  <section class="portfolio" id="works">
     <div class="container-fluid">
       <div class="row">
         <!-- one item start -->
@@ -263,7 +264,7 @@
   <!-- portfolio end -->
 
   <!-- team start -->
-  <section class="team">
+  <section class="team" id="team">
     <div class="container">
       <div class="row">
         <!-- one item start -->
@@ -356,7 +357,7 @@
   <!-- team start -->
 
   <!-- carousel start -->
-  <section class="carousel">
+  <section class="carousel" id="testimonial">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 px-0">
@@ -446,7 +447,7 @@
   <!-- carousel end -->
 
   <!-- download start -->
-  <section class="download">
+  <section class="download" id="download">
     <div class="download-content">
       <h1>Are You Ready to Start? Download Now For Free!</h1>
       <p>Fusce dapibus, tellus ac cursus commodo</p>
@@ -500,8 +501,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 offset-md-4 text-center">
-            <p>Copyright © 2015 ActiveBox. All Rights Reserved
-                Made with <i class="fas fa-heart"></i> <span>by Kamal Chaneman</span></p>
+          <p>Copyright © 2015 ActiveBox. All Rights Reserved
+            Made with <i class="fas fa-heart"></i> <span>by Kamal Chaneman</span></p>
         </div>
       </div>
     </div>
